@@ -2,9 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a45d69-2fc3-4c23-abf6-cfbcea418816" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vegetables.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/conftest_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/coverage_html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/favicon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.ba-throttle-debounce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.isonscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/keybd_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/keybd_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/manage_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/status.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp___init___py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_admin_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_apps_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_migrations___init___py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_models_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_views_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject___init___py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_asgi_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_settings_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_urls_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_wsgi_py.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tests/unit/factories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vegetablesProject/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/development.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/production.py" afterDir="false" />
@@ -85,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1618474404547</updated>
     </task>
+    <task id="LOCAL-00001" summary="added settings files and testing">
+      <created>1619536532460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619536532460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added settings files and testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added settings files and testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
