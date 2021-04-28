@@ -1,4 +1,17 @@
  {%  include 'vegetablesApp/base.html' %}
-  <head>
-     <title>Welcome to My Vegetables</title>
- </head>
+ {% block content %}
+ <h3>My Vegetables</h3>
+
+ <div class="container">
+     {% for vegetable in vegetables %}
+        <div class="row">
+            <div class="col l4">
+                <div class="card-panel">
+                    {{vegetable.type}}
+                     <a href="{% url 'list' vegetable.id %}" class="btn btn-outline-primary">Detail</a>
+                </div>
+            </div>
+        </div>
+     {% endfor %}
+ </div>
+ {% endblock %}

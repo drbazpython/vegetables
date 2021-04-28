@@ -1,12 +1,12 @@
 from .base import *
 DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1','localhost']
-INSTALLED_APPS += [
-    'debug_toolbar',
-]
-MIDDLEWARE += [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
-]
+#INSTALLED_APPS += [
+ #   'debug_toolbar',
+#]
+#MIDDLEWARE += [
+  #  'debug_toolbar.middleware.DebugToolbarMiddleware',
+#]
 DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.history.HistoryPanel',
     'debug_toolbar.panels.versions.VersionsPanel',
@@ -24,13 +24,13 @@ DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.profiling.ProfilingPanel',
 ]
 #https://django-debug-toolbar.readthedocs.io/en/latest/configuration.html
-def show_toolbar(request):
-    return True
+#def show_toolbar(request):
+ #   return True
 
-DEBUG_TOOLBAR_CONFIG = {
-    'INTERCEPT_REDIRECTS': False,
-    'SHOW_TOOLBAR_CALLBACK': show_toolbar
-}
+#DEBUG_TOOLBAR_CONFIG = {
+   # 'INTERCEPT_REDIRECTS': False,
+   # 'SHOW_TOOLBAR_CALLBACK': show_toolbar
+#}
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases

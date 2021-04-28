@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a45d69-2fc3-4c23-abf6-cfbcea418816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/management/commands/rename.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/src/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesApp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_models_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/vegetablesApp/add_veg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/vegetablesApp/add_veg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/vegetablesApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/vegetablesApp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/vegetablesApp/list_veg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/vegetablesApp/list_veg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/vegetablesApp/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/vegetablesApp/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/unit/factories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/unit/factories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/unit/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/unit/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/unit/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/unit/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesProject/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesProject/settings/development.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/development.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vegetablesProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +48,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/manage.py" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -42,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/templates/vegetablesApp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.runserver">
     <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
       <module name="vegetables" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +85,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_models.TestModel" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="vegetables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_models.TestModel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_views.TestTemplates" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="vegetables" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_views.TestTemplates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_views.TestTemplates" />
+        <item itemvalue="Python tests.Unittests for test_models.TestModel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619536532460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added rename script">
+      <created>1619599333578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619599333578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added settings files and testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added settings files and testing" />
+    <MESSAGE value="added rename script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rename script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

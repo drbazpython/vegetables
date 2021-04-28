@@ -5,5 +5,5 @@ from .views import vegetables_home_view, vegetables_add_view,vegetables_list_vie
 urlpatterns = [
     path('', vegetables_home_view, name='home'),
     path('add/', vegetables_add_view, name='add'),
-    path('list/', vegetables_list_view, name='list'),
+    path('list/<id>', vegetables_list_view, name='list'),
 ]

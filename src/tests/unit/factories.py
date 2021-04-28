@@ -10,7 +10,7 @@ fake = Faker()
 class VegetableProvider(BaseProvider):
     def vegetable(self):
         vegetables = [
-            'pea','runner bean', 'tomato', 'broad bean','lettuce', 'radish'
+            'pea','runner bean', 'broad bean','lettuce', 'radish'
         ]
         return random.choice(vegetables)
 

@@ -1,4 +1,94 @@
  {%  include 'vegetablesApp/base.html' %}
-  <head>
-     <title>List All My Vegetables</title>
- </head>
+ {% block content %}
+ <h3>My Vegetables List</h3>
+
+ <div class="container">
+
+        <div class="row bg-dark text-white">
+            <div class="col l4">
+                <div class="card-panel">
+                    Type
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Variety
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Seed or Seedling
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Date Sown
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Date Harvested
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Pests
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Tips
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    Comments
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l4">
+                <div class="card-panel">
+                    {{vegetable.type}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.variety}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.seed_seedling}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.sowing_date}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.harvest_date}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.pests}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.tips}}
+                </div>
+            </div>
+            <div class="col l4">
+                 <div class="card-panel">
+                    {{vegetable.comments}}
+                </div>
+            </div>
+        </div>
+
+ </div>
+ {% endblock %}

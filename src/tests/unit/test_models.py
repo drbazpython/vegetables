@@ -10,15 +10,15 @@ class TestModel(TestCase):
 
     def setUp(self):
         self.veg1 = Vegetables.objects.create(
-            name = 'Cabbage',
+            type = 'Cabbage',
         )
 
     def test_init(self):
         obj = mixer.blend('vegetablesApp.Vegetables')
         assert obj.pk == 2
 
-    def test_name(self):
-        assert str(self.veg1) == self.veg1.name
+    def test_type(self):
+        assert str(self.veg1) == self.veg1.type
 
 def test_new_vegetable(vegetables_factory):
     print(vegetables_factory.name)

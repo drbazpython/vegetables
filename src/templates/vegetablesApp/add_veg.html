@@ -1,4 +1,14 @@
  {%  include 'vegetablesApp/base.html' %}
- <head>
-     <title>Add a Vegetable</title>
- </head>
+ {% load static %}
+ {% block content %}
+ <h3>Add a vegatable to my garden</h3>
+ <div class="container">
+     <form method="POST" action="">
+         {% csrf_token %}
+         {{form.as_p}}
+         <button type="submit" name="submit_button" class="btn btn-outline-primary">Add Vegetable
+         </button>
+     </form>
+
+ </div>
+ {% endblock %}

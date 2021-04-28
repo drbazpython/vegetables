@@ -80,5 +80,5 @@ MEDIA_ROOT = path.join(BASE_DIR, 'static/images')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
