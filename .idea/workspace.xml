@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03a45d69-2fc3-4c23-abf6-cfbcea418816" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vegetables.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/conftest_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/coverage_html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/favicon_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.ba-throttle-debounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.isonscreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/jquery.tablesorter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/keybd_closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/keybd_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/manage_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp___init___py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_admin_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_apps_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_migrations___init___py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_models_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesApp_views_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject___init___py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_asgi_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_settings_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_urls_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlcov/vegetablesProject_wsgi_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/unit/factories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesProject/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/development.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/src/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/unit/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/unit/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vegetablesApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vegetablesProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesProject/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vegetablesProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vegetablesProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vegetablesApp/management/commands/rename.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added settings files and testing" />
